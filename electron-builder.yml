@@ -3,7 +3,6 @@ productName: Cerberus Launcher
 copyright: Copyright © 2026 Cerberus
 directories:
   buildResources: resources
-electronDist: node_modules/electron/dist
 files:
   - out/**
   - package.json
