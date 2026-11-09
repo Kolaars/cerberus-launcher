@@ -11,7 +11,7 @@ vanilla-пайплайн (установка и запуск), аккаунты 
 
 Готовый установщик для Windows x64 — в разделе
 **[Releases](https://github.com/Kolaars/cerberus-launcher/releases/latest)**:
-`Cerberus Launcher-0.1.0-setup.exe`.
+`Cerberus.Launcher-0.1.0-setup.exe`.
 
 Сборка не подписана кодом, поэтому SmartScreen может показать предупреждение:
 «Подробнее» → «Выполнить в любом случае».
