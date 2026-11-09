@@ -1,0 +1,84 @@
+:root {
+  color-scheme: dark;
+
+  --font-sans: 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, 'Inter', sans-serif;
+  --font-display: 'Segoe UI Variable Display', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+
+  /* ── Obsidian surfaces ─────────────────────────────────────────────────── */
+  --bg-root: #06060b;
+  --bg-deep: #08080f;
+  --bg-surface: #0d0d16;
+  --bg-surface-2: #12121d;
+  --bg-surface-3: #181827;
+  --bg-hover: #1d1d2e;
+  --bg-input: #0a0a12;
+
+  --border: rgba(255, 255, 255, 0.07);
+  --border-soft: rgba(255, 255, 255, 0.042);
+  --border-strong: rgba(255, 255, 255, 0.145);
+
+  /* ── Warm ink typography ───────────────────────────────────────────────── */
+  --text: #f6f3ef;
+  --text-soft: #cfc7d4;
+  --text-muted: #9a92a6;
+  --text-dim: #6b6478;
+
+  /* ── Ember accent ──────────────────────────────────────────────────────── */
+  --accent: #ff5940;
+  --accent-bright: #ff7d60;
+  --accent-deep: #bd2337;
+  --accent-soft: rgba(255, 89, 64, 0.14);
+  --accent-line: rgba(255, 89, 64, 0.44);
+  --accent-glow: rgba(255, 89, 64, 0.32);
+
+  --gold: #f2b45c;
+  --gold-soft: rgba(242, 180, 92, 0.13);
+  --violet: #8f6dff;
+  --violet-soft: rgba(143, 109, 255, 0.14);
+
+  --success: #46d6a4;
+  --success-soft: rgba(70, 214, 164, 0.13);
+  --warning: #f3b74b;
+  --warning-soft: rgba(243, 183, 75, 0.13);
+  --danger: #f15b6c;
+  --danger-soft: rgba(241, 91, 108, 0.13);
+  --info: #6aa8ff;
+  --info-soft: rgba(106, 168, 255, 0.12);
+
+  /* ── Gradients ─────────────────────────────────────────────────────────── */
+  --grad-ember: linear-gradient(135deg, #ff8a63 0%, #ff5940 46%, #c9243a 100%);
+  --grad-ember-soft: linear-gradient(135deg, rgba(255, 138, 99, 0.22), rgba(201, 36, 58, 0.08));
+  --grad-title: linear-gradient(105deg, #ffc07a 0%, #ff7a5a 38%, #ff4f3f 66%, #d23a70 100%);
+  --grad-surface: linear-gradient(163deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.014) 52%, rgba(255, 255, 255, 0.004));
+  --grad-obsidian: linear-gradient(150deg, rgba(255, 89, 64, 0.09), rgba(143, 109, 255, 0.05) 48%, transparent 74%);
+  --grad-hairline: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+
+  /* ── Shape ─────────────────────────────────────────────────────────────── */
+  --radius-xs: 7px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 26px;
+  --radius-pill: 999px;
+
+  /* ── Elevation ─────────────────────────────────────────────────────────── */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 18px 44px rgba(0, 0, 0, 0.38);
+  --shadow-lg: 0 34px 90px rgba(0, 0, 0, 0.55);
+  --shadow-accent: 0 16px 42px rgba(255, 89, 64, 0.28);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+  --titlebar-height: 48px;
+  --sidebar-width: 236px;
+  --page-pad: 28px;
+  --page-max: 1220px;
+
+  --transition: 170ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  --transition-slow: 340ms cubic-bezier(0.2, 0.7, 0.3, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --z-titlebar: 40;
+  --z-toast: 80;
+  --z-modal: 70;
+}
